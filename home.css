@@ -1,0 +1,55 @@
+.showcase{
+	background-image: url('blossom.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+	padding: 0 20px;
+}
+.content{
+	padding:2em 2em;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.content div img{
+	width: 100px;
+	height: 100px;
+	opacity: 0.;
+}
+.map{
+	padding-left: 55%
+}
+nav{
+	margin-bottom: 0px;
+}
+hr{
+	height:2px;
+	border-width:0;
+	color:grey;
+	background-color:grey
+}
+
+/* width */
+::-webkit-scrollbar {
+width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #ccc; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #333; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #151515; 
+}
